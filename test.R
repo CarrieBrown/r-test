@@ -1,1 +1,5 @@
-print("This is a test script.")
+library(base)
+
+data("iris")
+
+boxplot(iris$Sepal.Length)
